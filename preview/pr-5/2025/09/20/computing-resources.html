@@ -66,10 +66,10 @@
 
   <meta name="author" content="brian-kominick">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-10-01T14:34:03+00:00">
+  <meta property="og:updated_time" content="2025-10-01T15:34:55+00:00">
   <meta property="article:published_time" content="2025-09-20T00:00:00+00:00">
-  <meta property="article:modified_time" content="2025-10-01T14:34:03+00:00">
-  <meta name="revised" content="2025-10-01T14:34:03+00:00">
+  <meta property="article:modified_time" content="2025-10-01T15:34:55+00:00">
+  <meta name="revised" content="2025-10-01T15:34:55+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Resource Efficiency and AI" },
       "datePublished": "2025-09-20T00:00:00+00:00",
-      "dateModified": "2025-10-01T14:34:03+00:00",
+      "dateModified": "2025-10-01T15:34:55+00:00",
     
     "name": "Resource Efficiency and AI",
     "description": "The Artificial Intelligence Research (AIR) Lab at West Chester University is a collaborative community of faculty and students exploring how AI can make a positive impact. We bring together diverse computer science, engineering, and education perspectives, with a strong emphasis on mentorship and hands-on experience. Our members contribute to publications, open-source projects, and applied collaborations while developing skills that prepare them for both academic and industry careers. By fostering inclusion and curiosity, the AIR Lab provides an environment where innovation and learning thrive side by side.",
@@ -579,7 +579,7 @@
 <h3 id="memory-organization">Memory Organization</h3>
 <p>To better understand how memory management factors into performance, let’s start by taking a look at how a computer organizes data. We can divide memory into two different categories: primary (internal, volatile) and secondary (external, non-volatile). The diagram below shows the different tiers of available memory, ordered by size and access time. Registers, caches, and main memory (dynamic random-access memory) fall under the primary category. They store programs and data for the processes your computer is currently running (like this webpage!) and are directly accessible to the processor. On the other hand, things like HDDs (hard drive disks) and SSDs (solid-state drives) constitute secondary memory. They are used for long-term storage, retain data even when unpowered, and are indirectly accessible to the processor through input/output operations. As you can see in the diagram, access time for secondary storage jumps to the scale of milliseconds, whereas primary storage can be accessed in nanoseconds. Importantly, it also indicates the direction of cost per bit, a monetary measurement (primary storage is more complex to physically produce). Taking these attributes into consideration, we can see that efficient design necessitates a balance between the two categories.</p>
 
-<p><img src="/images/other/computing-resouces/Memory-Hierarchy-Design.png" alt="Memory Hierarchy Diagram" title="Memory Hierarchy Diagram"><sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup></p>
+<p><img src="/airlab/preview/pr-5/images/other/computing-resouces/Memory-Hierarchy-Design.png" alt="Memory Hierarchy Diagram" title="Memory Hierarchy Diagram"><sup id="fnref:8" role="doc-noteref"><a href="#fn:8" class="footnote" rel="footnote">8</a></sup></p>
 
 <h2 id="software-level-optimizations">Software-Level Optimizations</h2>
 <p>To pragmatically address the bottleneck of input/output operations, let’s look at a couple specific ways we can better utilize the computing resources we have available: kernel fusion and gradient checkpointing<sup id="fnref:5:3" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup>.</p>
@@ -660,11 +660,11 @@
 
 <p>If we parse this expression into a DAG using our minimal IR, we could represent it like this:</p>
 
-<p><img src="/images/other/computing-resouces/before.png" alt="Before Fusion" title="Before Fusion"></p>
+<p><img src="/airlab/preview/pr-5/images/other/computing-resouces/before.png" alt="Before Fusion" title="Before Fusion"></p>
 
 <p>From here, we can see the relationships between each term and apply a function to recursively traverse the tree. That could transform the original graph into the following:</p>
 
-<p><img src="/images/other/computing-resouces/after.png" alt="After Fusion" title="After Fusion"></p>
+<p><img src="/airlab/preview/pr-5/images/other/computing-resouces/after.png" alt="After Fusion" title="After Fusion"></p>
 
 <p>Implementing this practice in a compiler removes the need to manually apply it to all operations and allows for further optimizations at a smaller level.</p>
 
@@ -725,7 +725,7 @@ K,Memory_MB,Time_s
 <div id="info-box" style="margin-top:20px; font-family:sans-serif;">
   <p>Hover over a point to see details.</p>
 </div>
-<script src="/assets/js/checkpoint-plot.js"></script>
+<script src="/airlab/preview/pr-5/assets/js/checkpoint-plot.js"></script>
 
 <p>As we can see, adding checkpoints dramatically reduces not only the amount of memory used but also the total run time. However, the checkpoints have diminishing returns. As they become more frequent (as K decreases), the memory usage and execution time both increase. If we continue to decrease checkpoints (increase K), we would see slight increases to execution time in that direction as well.</p>
 
