@@ -1,6 +1,6 @@
 ---
-title: Resource Efficiency and AI 
-image: '/images/other/computing-resouces/before.png'
+title: Memory Optimization Demo
+image: 'images/other/blogs/computing-resources/before.png'
 author: brian-kominick
 tags: ai, memory, resources
 ---
@@ -95,11 +95,11 @@ struct FusedOp : Node {
 
 If we parse this expression into a DAG using our minimal IR, we could represent it like this:
 
-![Before Fusion]({{'/images/other/computing-resouces/before.png' | relative_url}} "Before Fusion")
+![Before Fusion]({{'/images/other/blogs/computing-resources/before.png' | relative_url}} "Before Fusion")
 
 From here, we can see the relationships between each term and apply a function to recursively traverse the tree. That could transform the original graph into the following:
 
-![After Fusion]({{'/images/other/computing-resouces/after.png' | relative_url}} "After Fusion")
+![After Fusion]({{'/images/other/blogs/computing-resources/after.png' | relative_url}} "After Fusion")
 
  Implementing this practice in a compiler removes the need to manually apply it to all operations and allows for further optimizations at a smaller level.
 
