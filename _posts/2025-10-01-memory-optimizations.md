@@ -6,7 +6,7 @@ tags: ai, memory, resources
 ---
 
 ## Introduction
-In my ["last blog post"]({{'/blog/_posts/2025-09-20-computing-resources.html' | relative_url}} "Computing Resources Blog"), we looked at some past and projected figures for AI's natural-resource consumption and showed the expenditure to be immense. Following that, we gave a high-level view of current or proposed methods to mitigate those figures. In this blog post, we'll inspect a couple current software-level optimizations (kernel fusion and gradient checkpointing) and implement some simple demos to deepen our understanding of how they work. Following that, I'll give a brief reflection on what I've gained from writing this post and what I plan to do next.
+In my [last blog post]({{'/blog/_posts/2025-09-20-computing-resources.html' | relative_url}} "Computing Resources Blog"), we looked at some past and projected figures for AI's natural-resource consumption and showed the expenditure to be immense. Following that, we gave a high-level view of current or proposed methods to mitigate those figures. In this blog post, we'll inspect a couple current software-level optimizations (kernel fusion and gradient checkpointing) and implement some simple demos to deepen our understanding of how they work. Following that, I'll give a brief reflection on what I've gained from writing this post and what I plan to do next.
 
 ## Background
 <!-- excerpt start -->To pragmatically address the bottleneck of input/output operations, let's look at a couple specific ways we can better utilize the computing resources we have available: kernel fusion and gradient checkpointing<!-- excerpt end -->[^1]. Before getting into their implementations, we'll review each one conceptually.
