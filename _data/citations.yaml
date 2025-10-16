@@ -659,7 +659,7 @@
   publisher: "arXiv preprint arXiv:2509.15283"
   link: https://arxiv.org/abs/2509.15283
   repo: https://github.com/WCU-AIR/face-llm-eval
-  image: images/photo.jpg  # optional if you want a thumbnail
+  image: images/other/llm_eval_poster.png
   tags:
     - LLMs
     - evaluation

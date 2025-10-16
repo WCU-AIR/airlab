@@ -11,7 +11,7 @@
 
 - title: Evaluating the Limitations of Local LLMs in Solving Complex Programming Challenges
   group: featured
-  image: images/photo.jpg
+  image: images/other/llm_eval_poster.png
   link: https://github.com/WCU-AIR/face-llm-eval
   description: "A systematic evaluation of the performance limitations of local Large Language Models (LLMs) when solving complex programming problems."
   repo: https://github.com/WCU-AIR/face-llm-eval
