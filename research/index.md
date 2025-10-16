@@ -14,7 +14,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="Evaluating the Limitations of Local LLMs in Solving Complex Programming Challenges" style="rich" %}
 
 {% include section.html %}
 
