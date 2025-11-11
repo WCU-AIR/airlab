@@ -26,7 +26,7 @@ The Artificial Intelligence Research (AIR) Lab at West Chester University explor
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research.png"
   link="research"
   title="Our Research"
   text=text
@@ -49,7 +49,7 @@ The AIR Lab puts research ideas into action through concrete initiatives and exp
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/project.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -74,7 +74,7 @@ Our team collaborates across research projects, publications, and community outr
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.png"
   link="team"
   title="Our Team"
   text=text
