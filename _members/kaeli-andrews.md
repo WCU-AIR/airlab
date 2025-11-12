@@ -17,6 +17,4 @@ I am also helping form AiMD, a student organization focused on Artificial Intell
 
 Outside of academics, I enjoy hiking, yoga, and playing video games.
 
-<img src="../images/other/kadin_hiking.jpeg" alt="Me Hiking in Acadia National Park" width="60%">
-
 
