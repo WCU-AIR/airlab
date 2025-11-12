@@ -74,7 +74,7 @@ Our team collaborates across research projects, publications, and community outr
 
 {%
   include feature.html
-  image="images/team.png"
+  image="images/team_v2.png"
   link="team"
   title="Our Team"
   text=text
