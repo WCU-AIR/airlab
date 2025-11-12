@@ -1,23 +1,35 @@
 - title: Predicting ChatGPT’s Ability to Solve Complex Programming Challenges
   subtitle: ChatGPT Prediction
-  group: featured
   image: images/photo.jpg
   link: https://github.com/WCU-AIR/chatgpt_kattis
-  description: Understanding how modern LLM frameworks (ChatGPT/Gemini) can help solving complex programming problems.
+  description: Exploring modern LLMs performance in solving complex programming problems.
   repo: https://github.com/WCU-AIR/chatgpt_kattis
   tags:
-    - resource
-    - publication
+    - large-language-models
 
 - title: Evaluating the Limitations of Local LLMs in Solving Complex Programming Challenges
-  group: featured
+  group: on-going
   image: images/other/llm_eval_poster.png
   link: https://github.com/WCU-AIR/face-llm-eval
   description: "A systematic evaluation of the performance limitations of local Large Language Models (LLMs) when solving complex programming problems."
   repo: https://github.com/WCU-AIR/face-llm-eval
   tags:
-    - LLMs
-    - evaluation
-    - publication
+    - large-language-models
 
+- title: One YAML File to Describe Them All
+  group: on-going
+  image: images/projects/2025_one_yaml.png
+  link: https://github.com/WCU-AIR/the-one-ring
+  description: Containerized environments for computer science education using a single YAML configuration file template
+  repo: https://github.com/WCU-AIR/the-one-ring
+  tags:
+    - computer-science-education
+    - containerization
 
+- title: A Detailed Comparative Analysis of Blockchain Consensus Mechanisms
+  image: images/projects/2025_blockchain.png
+  link: TBD
+  description: A comprehensive comparative analysis of two dominant blockchain consensus mechanisms, Proof of Work (PoW) and Proof of Stake (PoS)
+  repo: TBD
+  tags:
+    - blockchain

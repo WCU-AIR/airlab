@@ -11,6 +11,7 @@
       src="{{ include.image | relative_url | uri_escape }}"
       alt="{{ include.title | default: "card image" | regex_strip }}"
       loading="lazy"
+      style="width: 100%; height: auto; object-fit: contain;"
       {% include fallback.html %}
     >
   </a>

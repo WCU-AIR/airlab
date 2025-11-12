@@ -1,23 +1,36 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+- title: A Detailed Comparative Analysis of Blockchain Consensus Mechanisms
+  authors:
+    - Kaeli Andrews
+    - Linh B. Ngo
+    - Md Amiruzzaman
+  publisher: 41st CCSC Eastern Regional Conference
+  date: 2025-10-25
+  link: TBD
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - blockchain
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- title: Evaluating the Limitations of Local LLMs in Solving Complex Programming Challenges
+  authors:
+    - Kadin Matotek 
+    - Heather Cassel
+    - Md Amiruzzaman
+    - Linh B. Ngo
+  publisher: 41st CCSC Eastern Regional Conference
+  date: 2025-10-25
+  link: https://arxiv.org/abs/2509.15283
+  tags:
+    - best-paper
+    - large-language-models
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- title: One YAML File to Describe Them All
+  authors:
+    - Linh B. Ngo 
+    - Huy Nguyen
+    - Bao Ngo 
+    - Tejas Karusala
+  publisher: 41st CCSC Eastern Regional Conference
+  date: 2025-10-25
+  link: TBD
+  tags:
+    - computer-science-education
+    - containerization
