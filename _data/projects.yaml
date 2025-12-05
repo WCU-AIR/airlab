@@ -1,11 +1,20 @@
-- title: Predicting ChatGPT’s Ability to Solve Complex Programming Challenges
-  subtitle: ChatGPT Prediction
-  image: images/photo.jpg
-  link: https://github.com/WCU-AIR/chatgpt_kattis
-  description: Exploring modern LLMs performance in solving complex programming problems.
-  repo: https://github.com/WCU-AIR/chatgpt_kattis
+- title: Video Over RTP Enhancements and Testing Methods
+  group: on-going
+  description: Analyzing, understanding, and modifying the Real-Time Transport Protocol (RTP) to enhance its security and user access management features.
   tags:
-    - large-language-models
+    - rtp, network protocols, security
+
+- title: Emerging Trends in Large Language Model Use for Undergraduate Introductory Programming Education
+  group: on-going
+  description: Investigating how linguistic compression can enhance reasoning accuracy and reduce hallucination in Small Language Models (SLMs) through token-efficient prompt design.
+  tags:
+    - large language models, computer science education, linguistic
+
+- title: Linguistic Compression for Token-Efficient Reasoning in Small Language Models
+  group: on-going
+  description: Investigating how linguistic compression can enhance reasoning accuracy and reduce hallucination in Small Language Models (SLMs) through token-efficient prompt design.
+  tags:
+    - large language models, linguistic
 
 - title: Evaluating the Limitations of Local LLMs in Solving Complex Programming Challenges
   group: on-going
@@ -14,16 +23,15 @@
   description: "A systematic evaluation of the performance limitations of local Large Language Models (LLMs) when solving complex programming problems."
   repo: https://github.com/WCU-AIR/face-llm-eval
   tags:
-    - large-language-models
+    - large language models
 
 - title: One YAML File to Describe Them All
-  group: on-going
   image: images/projects/2025_one_yaml.png
   link: https://github.com/WCU-AIR/the-one-ring
   description: Containerized environments for computer science education using a single YAML configuration file template
   repo: https://github.com/WCU-AIR/the-one-ring
   tags:
-    - computer-science-education
+    - computer science education
     - containerization
 
 - title: A Detailed Comparative Analysis of Blockchain Consensus Mechanisms
@@ -33,3 +41,12 @@
   repo: TBD
   tags:
     - blockchain
+
+- title: Predicting ChatGPT’s Ability to Solve Complex Programming Challenges
+  subtitle: ChatGPT Prediction
+  image: images/photo.jpg
+  link: https://github.com/WCU-AIR/chatgpt_kattis
+  description: Exploring modern LLMs performance in solving complex programming problems.
+  repo: https://github.com/WCU-AIR/chatgpt_kattis
+  tags:
+    - large language models
