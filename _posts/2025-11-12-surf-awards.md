@@ -1,6 +1,5 @@
 ---
 title: SURF Award Recipients
-image: images/logo-dark.png
 author: Linh B. Ngo
 tags:
   - accomplishments

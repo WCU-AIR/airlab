@@ -15,10 +15,14 @@ Our group develops *open-source tools* and *evaluation frameworks* to support tr
 
 ## On-going Projects
 
+<div class="project-cards">
 {% include list.html component="card" data="projects" filter="group == 'on-going'" %}
+</div>
 
 {% include section.html %}
 
 ## Past Projects
 
+<div class="project-cards">
 {% include list.html component="card" data="projects" filter="!group" %}
+</div>

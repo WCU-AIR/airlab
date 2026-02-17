@@ -1,6 +1,5 @@
 ---
 title: CSM Poster Day
-image: images/logo-dark.png
 author: Linh B. Ngo
 tags:
   - accomplishments

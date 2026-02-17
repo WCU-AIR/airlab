@@ -59,7 +59,7 @@ The AIR Lab puts research ideas into action through concrete initiatives and exp
 
 {% capture text %}
 
-Our team collaborates across research projects, publications, and community outreach, with senior students mentoring newer members to create a supportvie learning environment. This mix of experience levels fosters both innovation and professional growth, preparing our members to contribute meaningfully to academia and industry. 
+Our team collaborates across research projects, publications, and community outreach, with senior students mentoring newer members to create a supportive learning environment. This mix of experience levels fosters both innovation and professional growth, preparing our members to contribute meaningfully to academia and industry. 
 
 {%
   include button.html
@@ -74,7 +74,7 @@ Our team collaborates across research projects, publications, and community outr
 
 {%
   include feature.html
-  image="images/team_v2.png"
+  image="images/team_v3.png"
   link="team"
   title="Our Team"
   text=text

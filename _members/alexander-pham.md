@@ -3,6 +3,7 @@ name: Alexander Pham
 image: images/photo.jpg
 description: Undergraduate (Senior)
 role: Research Assistant
+former: true
 links:
   home-page: https://homepage.com
   github: tbd

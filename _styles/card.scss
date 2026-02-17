@@ -1,6 +1,9 @@
 ---
 ---
 
+$card-thumb-size: 180px;
+$card-wrap: 800px;
+
 .card {
   display: inline-flex;
   justify-content: stretch;
@@ -14,6 +17,65 @@
   overflow: hidden;
   box-shadow: var(--shadow);
   vertical-align: top;
+}
+
+// Project page: citation-style layout (image to the side, one per row)
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .card-image {
+    position: relative;
+    width: $card-thumb-size;
+    min-width: $card-thumb-size;
+    min-height: $card-thumb-size;
+    flex-shrink: 0;
+
+    img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .card-text {
+    flex: 1;
+    padding: 20px 20px 20px 30px;
+    align-items: flex-start;
+    text-align: left;
+    min-width: 0;
+  }
+}
+
+@media (max-width: $card-wrap) {
+  .project-cards {
+    .card {
+      flex-direction: column;
+    }
+
+    .card-image {
+      width: 100%;
+      min-width: unset;
+      height: $card-thumb-size;
+
+      img {
+        object-fit: cover;
+      }
+    }
+  }
 }
 
 .card[data-style="small"] {
