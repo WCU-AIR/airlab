@@ -1,30 +1,11 @@
-- title: Bidirectional Translation of ASL and English using Machine Vision and CCN and Transformer Networks
-  authors:
-  - Stefanie Amiruzzaman
-  - Md Amiruzzaman
-  - Raga Mouni Batchu
-  - James Dracup
-  - Alexander Pham
-  - Benjamin Crocker
-  - Linh B. Ngo
-  - M Ali Akber Dewan
-  publisher: Computers
-  id: MDPI
-  date: '2026-01-03'
-  link: https://www.mdpi.com/2073-431X/15/1/20
-  tags:
-  - asl-translation
-  - transformer
-  - computer-vision
-  plugin: sources.py
-  file: sources.yaml
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
 - title: A Detailed Comparative Analysis of Blockchain Consensus Mechanisms
   authors:
   - Kaeli Andrews
   - Linh B. Ngo
   - Md Amiruzzaman
   publisher: 41st CCSC Eastern Regional Conference
-  id: ACM Digital Library
   date: '2025-10-25'
   link: TBD
   tags:
@@ -38,7 +19,6 @@
   - Md Amiruzzaman
   - Linh B. Ngo
   publisher: 41st CCSC Eastern Regional Conference
-  id: ACM Digital Library
   date: '2025-10-25'
   link: https://arxiv.org/abs/2509.15283
   tags:
@@ -53,7 +33,6 @@
   - Bao Ngo
   - Tejas Karusala
   publisher: 41st CCSC Eastern Regional Conference
-  id: ACM Digital Library
   date: '2025-10-25'
   link: TBD
   tags:
