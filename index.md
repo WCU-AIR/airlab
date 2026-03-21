@@ -1,9 +1,9 @@
 ---
 ---
 
-# Artificial Intelligence Research (AIR) Lab
+# Artificial Intelligence and Robotic (AIR) Lab
 
-The Artificial Intelligence Research (AIR) Lab at West Chester University is a collaborative community of faculty and students exploring how AI can make a positive impact. We bring together diverse computer science, engineering, and education perspectives, with a strong emphasis on mentorship and hands-on experience. Our members contribute to publications, open-source projects, and applied collaborations while developing skills that prepare them for both academic and industry careers. By fostering inclusion and curiosity, the AIR Lab provides an environment where innovation and learning thrive side by side. 
+The Artificial Intelligence and Robotic (AIR) Lab at West Chester University is a collaborative community of faculty and students exploring how AI can make a positive impact. We bring together diverse computer science, engineering, and education perspectives, with a strong emphasis on mentorship and hands-on experience. Our members contribute to publications, open-source projects, and applied collaborations while developing skills that prepare them for both academic and industry careers. By fostering inclusion and curiosity, the AIR Lab provides an environment where innovation and learning thrive side by side. 
 
 {% include section.html %}
 
@@ -11,7 +11,7 @@ The Artificial Intelligence Research (AIR) Lab at West Chester University is a c
 
 {% capture text %}
 
-The Artificial Intelligence Research (AIR) Lab at West Chester University explores how AI can transform education, computing, and human productivity. We explore the integration of local LLM agents, container-based infrastructures, and other AI-enabled systems into cohesive frameworks with a strong focus on reproducibility, accessibility, and student engagement. By combining technical innovation with pedagogical design, we develop open, scalable, AI-enabled frameworks that empower learners and researchers. 
+The Artificial Intelligence and Robotic (AIR) Lab at West Chester University explores how AI can transform education, computing, and human productivity. We explore the integration of local LLM agents, container-based infrastructures, and other AI-enabled systems into cohesive frameworks with a strong focus on reproducibility, accessibility, and student engagement. By combining technical innovation with pedagogical design, we develop open, scalable, AI-enabled frameworks that empower learners and researchers. 
 
 {%
   include button.html
