@@ -1,15 +1,96 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- title: A Detailed Comparative Analysis of Blockchain Consensus Mechanisms
+- title: Evaluating the Robotic Control Reasoning Potential of Locally-Hosted LLMs
   authors:
-  - Kaeli Andrews
+  - Avery E. Leber
+  publisher: 42nd CCSC Eastern Regional Conference (Best Student Paper)
+  date: '2026-10-09'
+  tags:
+  - best-paper
+  - large-language-models
+  - robotics
+  plugin: sources.py
+  file: sources.yaml
+- title: Dual-Model RAG for Grounded Student Support
+  authors:
+  - Linh B. Ngo
+  - Logan Fani
+  - Nam Vu
+  - Nam Hoang
+  - Samuel Luong
+  - Si Chen
+  - Md Amiruzzaman
+  - Stefanie Amiruzzaman
+  publisher: 42nd CCSC Eastern Regional Conference
+  date: '2026-10-09'
+  tags:
+  - retrieval-augmented-generation
+  - large-language-models
+  - computer-science-education
+  plugin: sources.py
+  file: sources.yaml
+- title: 'ASL Recognition and Game-Based Interaction: A Machine Learning—Driven, Gamified
+    and Accessible Vocabulary Learning System for Deaf Learners'
+  authors:
+  - Stefanie Amiruzzaman
+  - Raga Mouni Batchu
+  - Md Amiruzzaman
+  - Linh B. Ngo
+  - M. Ali Akber Dewan
+  publisher: Computers (MDPI), 15(5), 299
+  date: '2026-05-06'
+  link: https://doi.org/10.3390/computers15050299
+  tags:
+  - asl-translation
+  - machine-learning
+  - gamification
+  plugin: sources.py
+  file: sources.yaml
+- title: Emerging Trends in Large Language Model Use for Undergraduate Introductory
+    Programming Education
+  authors:
+  - Brian Kominick
+  - Md Amiruzzaman
+  - Linh B. Ngo
+  publisher: 41st PACISE Conference (Best Graduate Paper)
+  date: '2026-04-10'
+  tags:
+  - best-paper
+  - large-language-models
+  - computer-science-education
+  plugin: sources.py
+  file: sources.yaml
+- title: 'Institutionalizing Client-Based Capstones Through Career Services: A PASSHE
+    Case Study'
+  authors:
   - Linh B. Ngo
   - Md Amiruzzaman
-  publisher: 41st CCSC Eastern Regional Conference
-  date: '2025-10-25'
-  link: TBD
+  - Richard Burns
+  publisher: 41st PACISE Conference (Best Faculty Paper)
+  date: '2026-04-10'
   tags:
-  - blockchain
+  - best-paper
+  - computer-science-education
+  plugin: sources.py
+  file: sources.yaml
+- title: Bidirectional Translation of ASL and English Using Machine Vision and CNN
+    and Transformer Networks
+  authors:
+  - Stefanie Amiruzzaman
+  - Md Amiruzzaman
+  - Raga Mouni Batchu
+  - James Dracup
+  - Alexander Pham
+  - Benjamin Crocker
+  - Linh B. Ngo
+  - M. Ali Akber Dewan
+  publisher: Computers (MDPI), 15(1), 20
+  date: '2026-01-03'
+  link: https://doi.org/10.3390/computers15010020
+  tags:
+  - asl-translation
+  - transformer
+  - computer-vision
   plugin: sources.py
   file: sources.yaml
 - title: Evaluating the Limitations of Local LLMs in Solving Complex Programming Challenges
@@ -18,7 +99,8 @@
   - Heather Cassel
   - Md Amiruzzaman
   - Linh B. Ngo
-  publisher: 41st CCSC Eastern Regional Conference
+  publisher: Journal of Computing Sciences in Colleges, 41(3), 138–152 (CCSC Eastern
+    2025, Best Faculty Paper, Research)
   date: '2025-10-25'
   link: https://arxiv.org/abs/2509.15283
   tags:
@@ -26,17 +108,87 @@
   - large-language-models
   plugin: sources.py
   file: sources.yaml
-- title: One YAML File to Describe Them All
+- title: Common Container-Based Infrastructure Blueprints for Multi-Course Computing
+    Education
   authors:
   - Linh B. Ngo
-  - Huy Nguyen
-  - Bao Ngo
+  - Huy D. Nguyen
+  - Bao G. Ngo
   - Tejas Karusala
-  publisher: 41st CCSC Eastern Regional Conference
+  publisher: Journal of Computing Sciences in Colleges, 41(3), 153–165 (CCSC Eastern
+    2025)
   date: '2025-10-25'
-  link: TBD
   tags:
   - computer-science-education
   - containerization
+  plugin: sources.py
+  file: sources.yaml
+- title: A Detailed Comparative Analysis of Blockchain Consensus Mechanisms
+  authors:
+  - Kaeli Andrews
+  - Linh B. Ngo
+  - Md Amiruzzaman
+  publisher: Journal of Computing Sciences in Colleges, 41(3), 261–275 (CCSC Eastern
+    2025)
+  date: '2025-10-25'
+  tags:
+  - blockchain
+  plugin: sources.py
+  file: sources.yaml
+- title: Predicting ChatGPT's Ability to Solve Complex Programming Challenges
+  authors:
+  - Nguyen Ho
+  - James May
+  - Bao Ngo
+  - Jack Formato
+  - Linh B. Ngo
+  - Hoang Bui
+  publisher: 2024 IEEE International Conference on Big Data, 1756–1764
+  date: '2024-12-15'
+  link: https://doi.org/10.1109/BigData62323.2024.10825139
+  tags:
+  - large-language-models
+  plugin: sources.py
+  file: sources.yaml
+- title: 'FACE: A Framework for AI-Driven Coding Generation Evaluation'
+  authors:
+  - Bao Ngo
+  - Jack Formato
+  - James J. May
+  - Nguyen Ho
+  - Hoang Bui
+  - Linh B. Ngo
+  publisher: Journal of Computing Sciences in Colleges, 40(3), 263–276
+  date: '2024-10-01'
+  tags:
+  - large-language-models
+  plugin: sources.py
+  file: sources.yaml
+- title: An AI-Based Framework for Translating American Sign Language to English and
+    Vice Versa
+  authors:
+  - Vijayendra D. Avina
+  - Md Amiruzzaman
+  - Stefanie Amiruzzaman
+  - Linh B. Ngo
+  - M. Ali Akber Dewan
+  publisher: Information (MDPI), 14(10), 569
+  date: '2023-10-14'
+  link: https://doi.org/10.3390/info14100569
+  tags:
+  - asl-translation
+  - machine-learning
+  plugin: sources.py
+  file: sources.yaml
+- title: Exploring ChatGPT's Ability to Solve Programming Problems with Complex Context
+  authors:
+  - Nghia D. Tran
+  - James J. May
+  - Nguyen Ho
+  - Linh B. Ngo
+  publisher: Journal of Computing Sciences in Colleges, 39(3), 195–209
+  date: '2023-10-01'
+  tags:
+  - large-language-models
   plugin: sources.py
   file: sources.yaml
