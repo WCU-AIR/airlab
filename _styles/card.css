@@ -26,20 +26,11 @@
   width: 100%;
   max-width: 100%;
   margin: 0;
+  border: 1px solid var(--light-gray);
+  box-shadow: none;
 }
 .project-cards .card-image {
-  position: relative;
-  width: 180px;
-  min-width: 180px;
-  min-height: 180px;
-  flex-shrink: 0;
-}
-.project-cards .card-image img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  display: none;
 }
 .project-cards .card-text {
   flex: 1;
@@ -49,19 +40,6 @@
   min-width: 0;
 }
 
-@media (max-width: 800px) {
-  .project-cards .card {
-    flex-direction: column;
-  }
-  .project-cards .card-image {
-    width: 100%;
-    min-width: unset;
-    height: 180px;
-  }
-  .project-cards .card-image img {
-    object-fit: cover;
-  }
-}
 .card[data-style=small] {
   width: 250px;
 }
@@ -94,6 +72,33 @@
 .card-subtitle {
   margin-top: -10px !important;
   font-style: italic;
+}
+
+.card-citations {
+  width: 100%;
+  padding-top: 16px;
+  border-top: 1px solid var(--light-gray);
+}
+
+.card-citations-title {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: var(--semi-bold);
+}
+
+.card-citation + .card-citation {
+  margin-top: 12px;
+}
+
+.card-citation a,
+.card-citation span {
+  display: block;
+}
+
+.card-citation span {
+  margin-top: 2px;
+  color: var(--gray);
+  font-size: 0.9em;
 }
 
 /*# sourceMappingURL=card.css.map */
