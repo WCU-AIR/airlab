@@ -19,7 +19,7 @@ $card-wrap: 800px;
   vertical-align: top;
 }
 
-// Project page: citation-style layout (image to the side, one per row)
+// Project page: text-first layout, one project per row.
 .project-cards {
   display: flex;
   flex-direction: column;
@@ -33,22 +33,12 @@ $card-wrap: 800px;
     width: 100%;
     max-width: 100%;
     margin: 0;
+    border: 1px solid var(--light-gray);
+    box-shadow: none;
   }
 
   .card-image {
-    position: relative;
-    width: $card-thumb-size;
-    min-width: $card-thumb-size;
-    min-height: $card-thumb-size;
-    flex-shrink: 0;
-
-    img {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+    display: none;
   }
 
   .card-text {
@@ -57,24 +47,6 @@ $card-wrap: 800px;
     align-items: flex-start;
     text-align: left;
     min-width: 0;
-  }
-}
-
-@media (max-width: $card-wrap) {
-  .project-cards {
-    .card {
-      flex-direction: column;
-    }
-
-    .card-image {
-      width: 100%;
-      min-width: unset;
-      height: $card-thumb-size;
-
-      img {
-        object-fit: cover;
-      }
-    }
   }
 }
 
@@ -111,4 +83,31 @@ $card-wrap: 800px;
 .card-subtitle {
   margin-top: -10px !important;
   font-style: italic;
+}
+
+.card-citations {
+  width: 100%;
+  padding-top: 16px;
+  border-top: 1px solid var(--light-gray);
+}
+
+.card-citations-title {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: var(--semi-bold);
+}
+
+.card-citation + .card-citation {
+  margin-top: 12px;
+}
+
+.card-citation a,
+.card-citation span {
+  display: block;
+}
+
+.card-citation span {
+  margin-top: 2px;
+  color: var(--gray);
+  font-size: 0.9em;
 }

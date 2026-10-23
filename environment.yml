@@ -1,0 +1,20 @@
+name: airlab-jekyll
+
+channels:
+  - conda-forge
+
+dependencies:
+  # Match ruby/setup-ruby's `ruby-version: "3.1"` in the GitHub workflows.
+  - ruby=3.1
+  # Native build tools are preinstalled on GitHub's Ubuntu runner. Include
+  # their Conda equivalents for gems such as eventmachine, ffi, and racc.
+  - c-compiler
+  - cxx-compiler
+  - make
+  - pkg-config
+  # Python supports the citation-generation tooling used by the site.
+  - python=3.12
+  - pip
+  - pip:
+      - --requirement=_cite/requirements.txt
+      - watchdog[watchmedo]==3.0.0

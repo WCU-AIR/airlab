@@ -1,6 +1,8 @@
 - title: Robotic Control Reasoning with Locally-Hosted LLMs
   group: on-going
   description: A kinematic-semantic evaluation framework that connects the Webots physics simulator to locally hosted LLMs through Ollama, separating fine-grained robot controls from high-level natural-language commands. Led by Avery Leber (SURI 2026); the first paper won Best Student Paper at CCSC Eastern 2026.
+  citations:
+    - Evaluating the Robotic Control Reasoning Potential of Locally-Hosted LLMs
   tags:
     - large language models
     - robotics
@@ -11,12 +13,17 @@
   link: https://github.com/WCU-AIR/face-llm-eval
   description: Extends our award-winning evaluation of locally hosted LLMs from eight open-source models to more than fifty (0.5B to 14B parameters), benchmarked on HumanEval, MBPP+, CodeContests, and curated Kattis and LeetCode corpora. Led by Kadin Matotek with support from SURF, the CSM Undergraduate Student Research Award, and SRCA.
   repo: https://github.com/WCU-AIR/face-llm-eval
+  citations:
+    - Evaluating the Limitations of Local LLMs in Solving Complex Programming Challenges
+    - "FACE: A Framework for AI-Driven Coding Generation Evaluation"
   tags:
     - large language models
 
 - title: Dual-Model RAG for Grounded Student Support
   group: on-going
   description: A locally hosted, instructor-controlled Retrieval-Augmented Generation framework for course-based community chat that separates retrieval and context assembly from student-facing response generation.
+  citations:
+    - Dual-Model RAG for Grounded Student Support
   tags:
     - large language models
     - retrieval-augmented generation
@@ -33,6 +40,10 @@
 - title: ASL Recognition, Translation, and Game-Based Learning
   group: on-going
   description: Machine vision, CNN, and transformer models for bidirectional translation between American Sign Language and English, and a gamified vocabulary learning system for Deaf learners. In collaboration with Dr. Stefanie Amiruzzaman.
+  citations:
+    - "ASL Recognition and Game-Based Interaction: A Machine Learning—Driven, Gamified and Accessible Vocabulary Learning System for Deaf Learners"
+    - Bidirectional Translation of ASL and English Using Machine Vision and CNN and Transformer Networks
+    - An AI-Based Framework for Translating American Sign Language to English and Vice Versa
   tags:
     - asl translation
     - computer vision
@@ -55,6 +66,8 @@
 
 - title: Emerging Trends in Large Language Model Use for Undergraduate Introductory Programming Education
   description: A study of how undergraduate students in introductory programming courses adopt and use large language models. Won Best Graduate Paper at PACISE 2026 and 1st place among graduate posters at the CSM Fall 2025 Poster Event.
+  citations:
+    - Emerging Trends in Large Language Model Use for Undergraduate Introductory Programming Education
   tags:
     - large language models
     - computer science education
@@ -77,6 +90,8 @@
   link: https://github.com/WCU-AIR/the-one-ring
   description: Containerized environments for computer science education using a single YAML configuration file template.
   repo: https://github.com/WCU-AIR/the-one-ring
+  citations:
+    - Common Container-Based Infrastructure Blueprints for Multi-Course Computing Education
   tags:
     - computer science education
     - containerization
@@ -84,6 +99,8 @@
 - title: A Detailed Comparative Analysis of Blockchain Consensus Mechanisms
   image: images/projects/2025_blockchain.png
   description: A comprehensive comparative analysis of two dominant blockchain consensus mechanisms, Proof of Work (PoW) and Proof of Stake (PoS).
+  citations:
+    - A Detailed Comparative Analysis of Blockchain Consensus Mechanisms
   tags:
     - blockchain
 
@@ -93,5 +110,8 @@
   link: https://github.com/WCU-AIR/chatgpt_kattis
   description: Exploring modern LLMs performance in solving complex programming problems.
   repo: https://github.com/WCU-AIR/chatgpt_kattis
+  citations:
+    - Predicting ChatGPT's Ability to Solve Complex Programming Challenges
+    - Exploring ChatGPT's Ability to Solve Programming Problems with Complex Context
   tags:
     - large language models

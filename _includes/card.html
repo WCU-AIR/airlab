@@ -1,5 +1,6 @@
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
+  {% if include.image %}
   <a
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
@@ -15,6 +16,7 @@
       {% include fallback.html %}
     >
   </a>
+  {% endif %}
 
   <div class="card-text">
     {% if include.title %}
@@ -39,6 +41,30 @@
       <p>
         {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
+    {% endif %}
+
+    {% if include.citations.size > 0 %}
+      <div class="card-citations">
+        <span class="card-citations-title">Related publications</span>
+        {% for citation_title in include.citations %}
+          {% assign citation = site.data.citations | where: "title", citation_title | first %}
+          {% if citation %}
+            <div class="card-citation">
+              <a
+                {% if citation.link %}
+                  href="{{ citation.link | xml_escape }}"
+                {% endif %}
+              >
+                {{ citation.title }}
+              </a>
+              <span>
+                {{ citation.authors | join: ", " }}.
+                {{ citation.publisher }}{% if citation.date %}, {{ citation.date | date: "%Y" }}{% endif %}.
+              </span>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     {% endif %}
 
     {% if include.tags or include.repo %}

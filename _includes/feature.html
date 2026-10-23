@@ -1,28 +1,17 @@
-<div
-  class="feature"
-  {% if include.flip %}
-    data-flip
-  {% endif %}
->
+<div class="feature">
   <a
+    class="feature-link"
     {% if include.link %}
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
-    class="feature-image"
     aria-label="{{ include.title | default: "feature link" | regex_strip }}"
   >
-    <img
-      src="{{ include.image | relative_url | uri_escape }}"
-      loading="lazy"
-      alt="{{ include.title | default: "feature image" | regex_strip }}"
-      style="max-width: 100%; height: auto;"
-      {% include fallback.html %}
-    >
+    <div class="feature-text">
+      {% if include.title %}
+        <p class="feature-title">{{ include.title }}</p>
+      {% endif %}
+      {{ include.text | markdownify }}
+      <span class="feature-arrow" aria-hidden="true">→</span>
+    </div>
   </a>
-  <div class="feature-text">
-    {% if include.title %}
-      <p class="feature-title">{{ include.title }}</p>
-    {% endif %}
-    {{ include.text | markdownify }}
-  </div>
 </div>

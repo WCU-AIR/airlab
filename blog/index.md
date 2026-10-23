@@ -1,8 +1,5 @@
 ---
 title: News
-nav:
-  order: 
-  tooltip: Latest news from the lab
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}News

@@ -1,6 +1,6 @@
 ---
 title: SURF Award Recipients
-author: Linh B. Ngo
+author: ngo-b-linh
 tags:
   - accomplishments
 ---
